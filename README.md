@@ -16,6 +16,7 @@
 <b>Contents <b> <br><br>
 <hr>
  <a href="./HTML/Lecture-1/index.html">Lecture-1: Introduction to HTML & Basic HTML Tag.</a> <br><br>
+ <a href="./HTML/Lecture-2/index.html">Lecture-2:  Basic HTML Tag & Table.</a> <br><br>
 
 <b>#Additional Resources<b>
 <hr>
