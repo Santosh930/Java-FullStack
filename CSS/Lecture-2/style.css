@@ -1,0 +1,46 @@
+/* div:hover{
+    background-color: aqua;
+    cursor: pointer;
+} */
+
+/* p:first-child{
+    background-color: blue;
+} */
+/* p:last-child{
+    background-color: red;
+} */
+/* p:nth-child(2){
+    background-color:green;
+} */
+/* ::after Selector  -- */
+/* p::after{
+
+    content: " - Remember this it is a para after ";
+} */
+/* p::before{
+    
+
+    content: " - Remember this it is a para before ";
+} */
+ /* p::first-line{
+    background-color: red;
+
+    
+}  */
+/* p::first-letter{
+    color: red;
+    font-size: 100px;
+} */
+
+/* input[type]{
+    font-size: 100px;
+    margin-top: 20px;
+    color: red;
+    background-color: green;
+} */
+input[type="text"]{
+    font-size: 100px;
+    margin-top: 20px;
+    color: red;
+    background-color: green;
+}
