@@ -1,0 +1,62 @@
+ 
+  
+/* 
+//Selecting by element 
+p{
+    background-color: red;
+}  */
+
+
+
+/*
+//Selecting by Grouping
+h1,p{
+    background-color: blue;
+}
+
+
+//By id
+#para-2{
+    background-color: aqua;
+}
+
+
+//By Class
+.para{
+    background-color: red;
+
+} */
+
+
+/* //By univwersal selector */
+/* *{
+    color: yellow;
+}*/
+
+/* #demoId{
+    background-color: red;
+    color: red;
+} */
+
+/* .para{
+    background-color: blue;
+    color: aqua;
+}  */
+/* Descendant Selector */
+div p{
+    color: red;
+}
+/* Child Selector */
+div>p{
+    background-color: aqua;
+}
+/*Adjacent Sibling Selector (+)
+  */
+  div+p{
+    background-color: yellow;
+  }
+
+  /* General Sibling Selector (~) */
+  div~p{
+    background-color: red;
+  }

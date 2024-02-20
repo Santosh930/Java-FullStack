@@ -1,0 +1,1 @@
+console.log('JavaScript is attached with HTML');

@@ -1,0 +1,93 @@
+/* 
+//https://flukeout.github.io/    CSS Dinner Game
+1.color (color names, or RGB, HEX, HSL, RGBA, HSLA values.)
+2.Box model/margin/padding/border/content/height/width
+3.text,font
+4.float property
+5.opacity
+6.important
+7.list,table,form
+8.css position
+static
+relative
+fixed
+absolute
+sticky
+top,right,bottom,left
+
+
+
+
+
+
+*/
+
+/* text-color */
+p{
+    /* color: red;   */
+    /* color: rgb(0, 25,25); */
+    /* color: rgba(255,0, 0, 0.2); */
+    /* color: hsl(0, 20%, 50%); */
+
+    /* Hexadecimal-0-9,A,B,C,D,E,F */
+    /* color: #rrggbb; */
+    /* color: #001122;
+    color: #bbb; */
+
+    /* background-color: aqua; */
+    /* text-align: left; */
+    /* text-align: right; */
+    /* text-align:center; */
+}
+#demo{
+    /* text-align: justify;
+    line-height: 50px; */
+    /* letter-spacing: 20px; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-weight: 900; */
+    /* font-style: italic; */
+}
+
+
+div{
+    border: 5px solid red;
+    background-color: aqua !important;
+    margin: 10px;
+    /* opacity: 0.5; */
+    /* padding: 20px; */
+    /* padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 50px; */
+    /* padding: top/right/bottom/left; */
+
+    padding: 10px 20px 30px 40px;
+    /* width: 500px;
+    height: 500px;
+    overflow:hidden; */
+
+    /* total width=left padding +right padding + content width + left border + right border
+    
+    total width=20+40+500+10=570px
+    total hight=padding top+padding bottom +content Height +border top+border bottom
+    
+    */
+
+}
+img{
+    /* float: right; */
+    float: left;
+}
+
+ol{
+    background-color: aqua;
+    margin: 40px;
+    padding: 30px;
+}
+li{
+    color: red;
+}
+
+
+
