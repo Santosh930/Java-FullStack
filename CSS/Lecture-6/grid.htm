@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid-Item</title>
+    <style>
+        .grid-container{
+            display: grid;
+            /* grid-gap: 10px; */
+            grid-row-gap: 10px;
+            grid-column-gap: 10px;
+            /* grid-template-columns:100px 100px 100px ; */
+            /* grid-template-columns: 30% 30% 30%; */
+            /* grid-template-columns: 1fr 2fr 3fr; */
+            grid-template-columns: repeat(4,1fr);
+            /* grid-template-rows: 50px 100px 100px 50px; */
+            grid-template-rows: repeat(3,200px);
+
+        }
+
+        .grid-item{
+             /* width: 100px; */
+             display: flex;
+             justify-content: center;
+             align-items: center;
+            /* height: 100px;  */
+            background-color: red;
+            /* margin: 10px; */
+            
+        }
+        #item-1{
+            /* grid-area: row-start/coloumn-start/row-end/columnn; */
+            background-color: aqua;
+            grid-area: 1/1/2/5;
+        }
+        #item-3{
+            background-color: green;
+            grid-area: 2/2/3/5;
+        }
+        #item-4{
+            background-color: aqua;
+            grid-row-start: 2 /span 2;
+            /* grid-row-end: 4; */
+        }
+    </style>
+</head>
+<body>
+
+     <div class="grid-container">
+        <div id="item-1" class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div id="item-3" class="grid-item">3</div>
+        <div id="item-4" class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+        <div class="grid-item">10</div>
+        <div class="grid-item">11</div>
+        <div class="grid-item">12</div>
+     </div>
+    
+</body>
+</html>

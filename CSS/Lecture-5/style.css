@@ -2,9 +2,106 @@
 1. CSS Flex  & CSS Grid
 2.Flex frogy /https://flexboxfroggy.com/
 3.Grid Garden/https://cssgridgarden.com/
+4.CSS  Gradients
+
+Linear Gradients (goes down/up/left/right/diagonally)
+Radial Gradients (defined by their center)
+Conic Gradients (rotated around a center point)
+
+5.2D Transforms
+
+scale():-The scale() method increases or decreases the size of an element (according to the parameters given for the width and height).
+
+CSS transforms allow you to move, rotate, scale, and skew elements.
+translate()
+rotate()->The rotate() method rotates an element clockwise or counter-clockwise according to a given degree.
+scaleX()
+scaleY()
+scale()
+skewX()
+skewY()
+skew()
+matrix()
+
+6.3D  Transforms
+7.Transition
+8.Animation
+
 
 
 
 
 
 */
+/* body{
+    background-color: aqua;
+} */
+
+/* rem   html  20px=1rem*/
+/* html{
+    font-size:20px;
+} */
+
+ /* h1{
+    font-size: 54px;
+    font-size: 3rem;
+    font-size: 2em; 
+    margin: 1em;
+     padding: 2rem;
+    
+
+    color: purple;
+} */
+/* p{
+    font-size: 2rem;
+    font-size: 100%;
+}  */
+/* .parent{
+    font-size: 8px;
+} */
+/* li{
+    font-size: 44px;
+    font-size: 2rem;
+    font-size: 2em;
+} */
+
+/* #demo{
+    border: 5px solid red;
+    width: 800px;
+    height: 800px;
+} */
+
+.flex-container{
+    display: flex;
+    /* width: 1000px; */
+    /* height: 1000px; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    background-color: aqua;
+    border: 1px solid red;
+    margin-right: 10px;
+    
+    flex-wrap: wrap;
+    
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+}
+
+.flex-item{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item-2{
+    color: green;
+    flex-grow: 1;
+    flex-shrink: 5;
+}

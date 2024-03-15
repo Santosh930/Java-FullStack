@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-item</title>
+    <style>
+        #main {
+  width: 70px;
+  height: 300px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content:center;
+}
+
+#main div {
+  width: 70px;
+  height: 70px;
+}
+        .flex-container{
+            width: 700px;
+            height: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            align-content:space-evenly;
+            /* flex-flow: row-reverse wrap; */
+        }
+        .flex-item{
+            /* display: flex; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            
+
+
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: red;
+            border: 2px solid black;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="flex-container">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <!-- <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+        <div class="flex-item">6</div>
+        <div class="flex-item">7</div>
+        <div class="flex-item">8</div>
+        <div class="flex-item">9</div>
+        <div class="flex-item">10</div>
+        <div class="flex-item">11</div>
+        <div class="flex-item">12</div> -->
+    </div>
+
+    <h1>The align-content Property</h1>
+
+<div id="main">
+  <div style="background-color:coral;"></div>
+  <div style="background-color:lightblue;"></div>
+  <div style="background-color:pink;"></div>
+</div>
+
+<p><b>Note:</b> Internet Explorer 10 and earlier versions do not support the align-content property.</p>
+    
+</body>
+</html>
