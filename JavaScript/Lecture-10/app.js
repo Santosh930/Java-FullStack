@@ -124,8 +124,8 @@ function myfunction(e){
 
     // console.log(arr);
 
-   let result=localStorage.setItem('userData',JSON.stringify(arr));
-//    console.log(result)
+   localStorage.setItem('userData',JSON.stringify(arr));
+   console.log(arr);
 
     
 
@@ -134,6 +134,5 @@ function myfunction(e){
 
 }
 
-console.log(arr);
 
 

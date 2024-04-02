@@ -41,6 +41,8 @@
 
 //TodoApp
 
+// let form=document.getElementById('demo');
+
 let form=document.querySelector('form');
 form.addEventListener('submit',todoApp);
 let arr=JSON.parse(localStorage.getItem('taskArr'))||[];
@@ -56,7 +58,7 @@ function todoApp(){
     // console.log(obj);
     arr.push(obj);
 
-    localStorage.setItem('taskArr',JSON.stringify(arr))
+    localStorage.setItem('taskArr',JSON.stringify(arr));
     // console.log(arr);
     displayData(arr);
 }
@@ -72,6 +74,8 @@ function displayData(arr){
   let col1=document.createElement('td');
   let col2=document.createElement('td');
   let col3=document.createElement('td');
+  col3.style.cursor='pointer';
+  col3.style.backgroundColor='aqua';
   col1.innerText=elem.task;
   col2.innerText=elem.priority;
   if(elem.priority=='High'){
@@ -81,7 +85,9 @@ function displayData(arr){
     col2.style.backgroundColor='green';
   }
   col3.innerText="Delete";
+  
   col3.addEventListener("click", function () {
+    
     //event.target.parentNode.remove();
     deleteRow(elem, index);
   });
