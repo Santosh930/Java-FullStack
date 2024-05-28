@@ -1,0 +1,55 @@
+//WHERE Syntax
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+
+//AND Syntax
+
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 AND condition2 AND condition3 ...;
+
+//OR Syntax
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 OR condition2 OR condition3 ...;
+
+//NOT Syntax
+SELECT column1, column2, ...
+FROM table_name
+WHERE NOT condition;
+
+ORDER BY Keyword:-The ORDER BY keyword is used to sort the result-set in ascending or descending order.
+
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1, column2, ... ASC|DESC;
+
+//LIMIT Syntax
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+LIMIT number;
+
+//MySQL LIKE Operator
+
+SELECT column1, column2, ...
+FROM table_name
+WHERE columnN LIKE pattern;
+
+//IN Syntax:-The IN operator allows you to specify multiple values in a WHERE clause.
+SELECT column_name(s)
+FROM table_name
+WHERE column_name IN (value1, value2, ...);
+
+
+//BETWEEN Operator:-The BETWEEN operator selects values within a given range. The values can be numbers, text, or dates.
+
+The BETWEEN operator is inclusive: begin and end values are included.
+//syntex
+SELECT column_name(s)
+FROM table_name
+WHERE column_name BETWEEN value1 AND value2;
+
+
+
